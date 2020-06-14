@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Diabetes Predictor</title>
+<link rel="stylesheet" type="text/css" href="/static/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--Websit Title-->
+    <div class="container">
+        <h2 class="container-heading"><span class="heading-font">Diabetes Predictor</span></h2>
+        <div class="description">
+            <p>A Machine Learning Web App,Built With Flask,Deployed Using Heroku</p>
+        </div>
+    </div>
+     <!--Text Area-->
+
+    <div class="ml-container">
+        <form action="predict" method="POST">
+            <input class="form-input" type="text" name="pregnancies" placeholder="Number Of pregnancies eg.0"><br>
+            <input class="form-input" type="text" name="glucose" placeholder="Glucose (mg/dl) eg.80"><br>
+            <input class="form-input" type="text" name="bloodpressure" placeholder="Blood Presure (mmHg) eg.80"><br>
+            <input class="form-input" type="text" name="skinthikness" placeholder="Skin Thikness (mm) eg.20"><br>
+            <input class="form-input" type="text" name="insulin" placeholder="Insulin Level (IU/ml) eg.80"><br>
+            <input class="form-input" type="text" name="bmi" placeholder="Body Mass Index (kg/m) eg.23.1"><br>
+            <input class="form-input" type="text" name="dpf" placeholder="Diabetes Pedigree Function eg. 0.52"><br>
+            <input class="form-input" type="text" name="age" placeholder="Age (Years) eg.23"><br>
+            
+            <input type="submit" class="my-cta-button" value="predict">
+
+        </form>
+    </div>
+    
+    <!--Footer-->
+    <div class="footer">
+        <p class="footer-discription">Made with ❤️ by Rahul Yadav.</p>
+    </div>
+        
+
+
+    
+
+
+
+
+
+</body>
+
+</html>
